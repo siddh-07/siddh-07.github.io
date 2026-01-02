@@ -8,7 +8,7 @@ const CONFIG = {
    * If you are deploying to https://siddh-07.github.io/, set base to '/'.
    * If you kept the default repo name (gitprofile), change this to '/gitprofile/'.
    */
-  base: '/https://siddh-07.github.io/',
+  base: '/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
