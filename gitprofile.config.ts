@@ -130,7 +130,7 @@ const CONFIG = {
       description: 'Overall Weighted Average: 79.39%. Coursework: Systems Admin, OS (Windows/Linux), Data Comm & Networking, Computer Security, IT Project Mgmt.',
     },
     {
-      institution: 'MNJ High School',
+      institution: 'MNJ Patel High School',
       degree: 'High School',
       from: 'June 2019', 
       to: 'March 2021',
