@@ -72,8 +72,7 @@ const CONFIG = {
     email: 'siddhbhadani26@gmail.com',
   },
   resume: {
-    // ACTION REQUIRED: Upload your PDF to your GitHub repo (or Google Drive) and paste the link here.
-    fileUrl: 'https://github.com/siddh-07/siddh-07.github.io/blob/main/Siddh_Bhadani_Resume.pdf', 
+    fileUrl: 'https://github.com/siddh-07/siddh-07.github.io/raw/main/Siddh_Bhadani_Resume.pdf', 
   },
   skills: [
     'IT Support',
