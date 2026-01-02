@@ -2,182 +2,158 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'siddh-07', // Your GitHub username
   },
   /**
-   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
-   * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
-   * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
+   * If you are deploying to https://siddh-07.github.io/, set base to '/'.
+   * If you kept the default repo name (gitprofile), change this to '/gitprofile/'.
    */
-  base: '/gitprofile/',
+  base: '/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
-      header: 'Github Projects',
+      header: 'GitHub Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: [], // These projects will not be displayed.
         },
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [], 
       },
     },
     external: {
-      header: 'My Projects',
-      // To hide the `External Projects` section, keep it empty.
+      header: 'Academic Projects',
+      // I added your Academic Projects here so they show up even without a GitHub link
       projects: [
         {
-          title: 'Project Name',
+          title: 'Systems Administration & Networking Lab',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'Configured Active Directory (User Accounts, GPOs), file sharing on Windows Server. Deployed/troubleshot VMs (VMware) to simulate enterprise networks (TCP/IP, DNS).',
+          imageUrl: '', // You can add an image URL here later if you have screenshots
+          link: '', // Add a link if you upload documentation later
         },
         {
-          title: 'Project Name',
+          title: 'Academic Capstone Project',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'Supported a full-stack application using OS, networking, and security fundamentals. Managed service requests and incident resolution simulation with technical documentation.',
+          imageUrl: '',
+          link: '',
         },
       ],
     },
   },
-  seo: { title: 'Portfolio of Ariful Alam', description: '', imageURL: '' },
+  seo: { title: 'Portfolio of Siddh Bhadani', description: 'IT Support Professional', imageURL: '' },
   social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'bhadani-siddh',
+    x: '',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
     reddit: '',
     threads: '',
-    youtube: '', // example: 'pewdiepie'
+    youtube: '', 
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    medium: '',
+    dev: '',
+    stackoverflow: '', 
     discord: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    website: '',
+    phone: '306-539-6253',
+    email: 'siddhbhadani26@gmail.com',
   },
   resume: {
-    fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    // ACTION REQUIRED: Upload your PDF to your GitHub repo (or Google Drive) and paste the link here.
+    fileUrl: '', 
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
+    'IT Support',
+    'Incident Management',
+    'ServiceNow',
+    'Jira',
+    'Active Directory',
+    'Windows Server',
+    'Windows 10/11',
+    'Linux (Ubuntu)',
+    'Office 365 Admin',
+    'TCP/IP & DNS',
+    'VPN Troubleshooting',
+    'VMware',
+    'SQL',
     'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'MongoDB',
+    'Hardware Troubleshooting',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Subway',
+      position: 'Team Supervisor (Technical Support)',
+      from: 'September 2022',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: '',
+      description: 'Primary onsite point of contact for POS systems and network connectivity. Performed hardware resets, troubleshooting, and staff training on operational software and security procedures. Applied ITSM/ITIL concepts for incident documentation.',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'ScriptOptim Infotech',
+      position: 'IT Support Intern',
+      from: 'August 2021',
+      to: 'February 2022',
+      companyLink: '', 
+      description: 'Provided Tier-1 support for hardware, software, and network issues. Resolved 15+ incidents weekly using ServiceNow/Jira. Assisted with Windows/Linux maintenance, Active Directory user provisioning, and GPO updates.',
     },
   ],
   certifications: [
+    // You can uncomment this section later if you get certifications (like CompTIA A+, etc.)
+    /*
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
+      name: 'Certification Name',
+      body: 'Issuing Organization',
       year: 'March 2022',
       link: 'https://example.com',
     },
+    */
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Saskatchewan Polytechnic',
+      degree: 'Diploma in Computer Systems Technology',
+      from: '2022', 
+      to: 'June 2024',
+      description: 'Overall Weighted Average: 79.39%. Coursework: Systems Admin, OS (Windows/Linux), Data Comm & Networking, Computer Security, IT Project Mgmt.',
     },
   ],
-  publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-  ],
-  // Display articles from your medium or dev account. (Optional)
+  publications: [], // Kept empty as none were listed
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
+    source: '', // kept empty to hide blog section
+    username: '', 
+    limit: 2, 
   },
   googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+    id: '', 
   },
-  // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: { id: '', snippetVersion: 6 },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'procyon', // I changed this to 'procyon' as it looks professional for IT, but you can change it back to 'lofi'
 
     // Hides the switch in the navbar
-    // Useful if you want to support a single color mode
     disableSwitch: false,
 
     // Should use the prefers-color-scheme media-query,
-    // using user system preferences, instead of the hardcoded defaultTheme
     respectPrefersColorScheme: false,
 
     // Display the ring in Profile picture
     displayAvatarRing: true,
 
-    // Available themes. To remove any theme, exclude from here.
+    // Available themes.
     themes: [
       'light',
       'dark',
@@ -218,12 +194,12 @@ const CONFIG = {
     ],
   },
 
-  // Optional Footer. Supports plain text or HTML.
+  // Optional Footer.
   footer: `Made with <a 
       class="text-primary" href="https://github.com/arifszn/gitprofile"
       target="_blank"
       rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+    >GitProfile</a>`,
 
   enablePWA: true,
 };
