@@ -8,7 +8,7 @@ const CONFIG = {
    * If you are deploying to https://siddh-07.github.io/, set base to '/'.
    * If you kept the default repo name (gitprofile), change this to '/gitprofile/'.
    */
-  base: '/',
+  base: '/https://siddh-07.github.io/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
@@ -73,7 +73,7 @@ const CONFIG = {
   },
   resume: {
     // ACTION REQUIRED: Upload your PDF to your GitHub repo (or Google Drive) and paste the link here.
-    fileUrl: '', 
+    fileUrl: 'https://github.com/siddh-07/siddh-07.github.io/blob/main/Siddh_Bhadani_Resume.pdf', 
   },
   skills: [
     'IT Support',
