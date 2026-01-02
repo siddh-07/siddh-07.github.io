@@ -50,7 +50,7 @@ const CONFIG = {
   },
   seo: { title: 'Portfolio of Siddh Bhadani', description: 'IT Support Professional', imageURL: '' },
   social: {
-    linkedin: 'bhadani-siddh',
+    linkedin: 'bhadani-siddh-15953a249',
     x: '',
     mastodon: '',
     researchGate: '',
@@ -125,9 +125,16 @@ const CONFIG = {
     {
       institution: 'Saskatchewan Polytechnic',
       degree: 'Diploma in Computer Systems Technology',
-      from: '2022', 
+      from: 'September 2022', 
       to: 'June 2024',
       description: 'Overall Weighted Average: 79.39%. Coursework: Systems Admin, OS (Windows/Linux), Data Comm & Networking, Computer Security, IT Project Mgmt.',
+    },
+    {
+      institution: 'MNJ High School',
+      degree: 'High School',
+      from: 'June 2019', 
+      to: 'March 2021',
+      description: 'Overall Weighted Average: 84%.',
     },
   ],
   publications: [], // Kept empty as none were listed
