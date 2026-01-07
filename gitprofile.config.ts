@@ -148,7 +148,7 @@ const CONFIG = {
   },
   hotjar: { id: '', snippetVersion: 6 },
   themeConfig: {
-    defaultTheme: 'procyon', // I changed this to 'procyon' as it looks professional for IT, but you can change it back to 'lofi'
+    defaultTheme: 'dark', // I changed this to 'procyon' as it looks professional for IT, but you can change it back to 'lofi'
 
     // Hides the switch in the navbar
     disableSwitch: false,
