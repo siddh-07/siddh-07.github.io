@@ -95,7 +95,7 @@ const CONFIG = {
   experiences: [
     {
       company: 'Subway',
-      position: 'Team Supervisor (Technical Support)',
+      position: 'Team Supervisor',
       from: 'September 2022',
       to: 'Present',
       companyLink: '',
