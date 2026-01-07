@@ -90,9 +90,11 @@ const CONFIG = {
     'SQL',
     'Git',
     'MongoDB',
-    'Hardware Troubleshooting'
+    'Hardware Troubleshooting',
     'JAVA',
-  'Python','HTML & CSS','JavaScript'
+    'Python',
+    'HTML & CSS',
+     'JavaScript'
   ],
   experiences: [
     {
