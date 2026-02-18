@@ -50,7 +50,7 @@ const CONFIG = {
   },
   seo: { title: 'Portfolio of Siddh Bhadani', description: 'IT Support Professional', imageURL: '' },
   social: {
-    linkedin: 'bhadani-siddh-15953a249',
+    linkedin: 'siddhbhadani',
     x: '',
     mastodon: '',
     researchGate: '',
